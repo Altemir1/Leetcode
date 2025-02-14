@@ -4,7 +4,6 @@ class Solution(object):
         :type matrix: List[List[int]]
         :rtype: List[int]
         """
-        n_turns = len(matrix) * 2 - 1
 
         row_size = len(matrix[0])
 
