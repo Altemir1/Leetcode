@@ -7,7 +7,7 @@ class Solution(object):
         """
         tail = len(str2)
         common_divisor = ""
-        while tail >= 2:
+        while tail >= 1:
             common_divisor = str2[:tail]
             if len(str1) % len(common_divisor) == 0:
                 quan_sub_1 = len(str1) / len(common_divisor)
